@@ -1,0 +1,28 @@
+1.SELECT * FROM `customers` WHERE country LIKE 'USA';
+2.SELECT * FROM `customers` WHERE country in ('France','Germany');
+3.SELECT * FROM `customers` WHERE country LIKE 'USA' AND state LIKE 'CA';
+4.SELECT * FROM `customers` WHERE customerName LIKE 'S%' or customerName LIKE 'T%';
+5.SELECT * FROM `products` WHERE productLine LIKE 'Classic Cars';
+6.SELECT * FROM `employees` WHERE jobtitle LIKE 'Sales Rep';
+7.SELECT * FROM `employees` WHERE officeCode = 1 or officeCode = 4;
+8.SELECT * FROM `payments` WHERE amount >= 10000;
+9.SELECT * FROM `payments` WHERE paymentDate LIKE '2005-06-01' or paymentDate LIKE '2004-10-19';
+10.SELECT * FROM `products` WHERE quantityInStock < 1000 AND buyPrice >= 50;
+11.SELECT * FROM `products` WHERE productVendor LIKE 'Min Lin Diecast' or productVendor LIKE 'Exoto Designs';
+12.SELECT * FROM `products` WHERE MSRP > 100 AND buyPrice <= 50;
+13.SELECT * FROM `orders` WHERE status LIKE 'Cancelled' or status LIKE 'Resolved';
+14.SELECT * FROM `orders` WHERE orderDate > 2005-01-01;
+15.SELECT * FROM `customers` WHERE country in ('USA','France','Canada');
+16.SELECT * FROM `customers` WHERE country not in ('Japan','New ziland','Australya');
+17.SELECT * FROM `employees` WHERE jobtitle not LIKE 'Sales Rep' and jobTitle NOT LIKE 'Manager' and jobTitle not LIKE 'President';
+18.SELECT * FROM `products` WHERE buyprice >= 20 and buyPrice <= 50
+19.SELECT * FROM `products` WHERE buyprice NOT BETWEEN 20 and 45 and quantityInStock BETWEEN 2000 and 3000;
+20.SELECT * FROM `products` WHERE MSRP NOT BETWEEN 70 and 100;
+21.SELECT * FROM `products` WHERE quantityInStock BETWEEN 1000 and 5000;
+22.SELECT * FROM `products` WHERE productVendor LIKE 'Welly Diecast' or productVendor LIKE 'Motor City Art Classics';
+23.SELECT * FROM `orders` WHERE status LIKE 'Resolved' or status LIKE 'Cancelled';
+24.SELECT * FROM `orders` WHERE status LIKE 'Resolved' or status LIKE 'Cancelled';
+25.SELECT * FROM `offices` WHERE officeCode BETWEEN 1 and 3 or officeCode = 7;
+                             
+
+
